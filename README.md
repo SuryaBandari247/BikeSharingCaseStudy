@@ -22,19 +22,19 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-> season vs cnt:
+> __season vs cnt:__
 > -	Season 3 which is the fall has maximum number of bookings. (Season 3>2>4>1)
-> year vs cnt:
+> __year vs cnt:__
 > -	2019 has a greater number of bookings than previous year which is a good sign of company's growth.
-> Month vs cnt
+> __Month vs cnt__
 > -	Total number of bookings are more during May-Sep/Oct but then there is a noticeable drop. Same observed during univariate analysis
-> Week vs cnt
+> __Week vs cnt__
 > -	Total number of bookings mostly same for all the days in week. There is little more demand on Thursday, Friday and Saturday. Little less on Sunday.
-> weathersit vs cnt:
+> __weathersit vs cnt:__
 > -	'1' which represent clear or partly cloudy weather has more bookings. (Weathersit-1>2>3)
-> holiday vs cnt:
+> __holiday vs cnt:__
 > -	During the holidays, there is a dip in total number of bookings, if you compare 25-50 percentile.
-> workingday vs cnt:
+> __workingday vs cnt:__
 > -	 Workingday or not, they is no noticeable different.
 ## Final model from linear regression
 > - total_bookings(cnt) = 0.0750 + 0.2331 * (year) + 0.0561 * (workingday) + 0.5499 * (temp) - 0.1552 * (windspeed) + 0.0886 * (season_summer) + 0.1307 * (season_winter) -0.0800 * (weathersit_2) - 0.2871 * (weatthersit_3) + 0.0974 * (mnth_sep) + 0.0675 * (weekend_6)
