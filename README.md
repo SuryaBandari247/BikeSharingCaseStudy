@@ -6,6 +6,7 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
+* [Final model from linear regression](#final-model-from-linear-regression)
 * [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
@@ -36,9 +37,8 @@
 > -	During the holidays, there is a dip in total number of bookings, if you compare 25-50 percentile.
 > workingday vs cnt:
 > -	 Workingday or not, they is no noticeable different.
-> Final model from linear regression:
+## Final model from linear regression
 > - total_bookings(cnt) = 0.0750 + 0.2331 * (year) + 0.0561 * (workingday) + 0.5499 * (temp) - 0.1552 * (windspeed) + 0.0886 * (season_summer) + 0.1307 * (season_winter) -0.0800 * (weathersit_2) - 0.2871 * (weatthersit_3) + 0.0974 * (mnth_sep) + 0.0675 * (weekend_6)
--
 
 
 
