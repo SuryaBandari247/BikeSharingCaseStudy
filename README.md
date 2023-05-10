@@ -9,10 +9,9 @@
 * [Final model from linear regression](#final-model-from-linear-regression)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Problem statement
+### Problem statement
 > BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. It has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end.
 > The company wants to know:
 
