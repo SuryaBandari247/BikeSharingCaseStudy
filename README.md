@@ -24,6 +24,7 @@
 ## Conclusions
 > __season vs cnt:__
 > -	Season 3 which is the fall has maximum number of bookings. (Season 3>2>4>1)
+> 
 > __year vs cnt:__
 > -	2019 has a greater number of bookings than previous year which is a good sign of company's growth.
 > __Month vs cnt__
